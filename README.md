@@ -513,14 +513,23 @@ void main() {
 }
 ```
 setup:
-```
+```bash
 $ brew install dmd
 ```
 to run:
-```
+```bash
 $ dmd simple_geo3x3.d Geo3x3.d
 $ ./simple_geo3x3
 ```
+
+
+### in COBOL
+setup:
+```bash
+$ brew install open-cobol
+```
+
+
 
 ## History
 ver 1.04 2021.2.22 fixed WGS84  
