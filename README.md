@@ -528,7 +528,10 @@ setup:
 ```bash
 $ brew install open-cobol
 ```
-
+to run:
+```bash
+$ cobc -x simple_geo3x3.cob geo3x3.cob; ./simple_geo3x3
+```
 
 
 ## History
