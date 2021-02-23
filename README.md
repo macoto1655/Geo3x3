@@ -541,6 +541,12 @@ to run:
 $ julia simple_geo3x3.jl
 ```
 
+### in Fortran 90
+to run:
+```bash
+$ gfortran geo3x3.f90 simple_geo3x3.f90; ./a.out
+```
+
 ## History
 ver 1.04 2021.2.22 fixed WGS84  
 ver 1.03 2021.2.20 support int encoded, license CC BY -> CC0 (Public Domain)  
